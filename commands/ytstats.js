@@ -1,7 +1,7 @@
 const { SlashCommandBuilder } = require("discord.js");
 const { EmbedBuilder } = require("discord.js");
 const axios = require("axios").default;
-const { youtubeKey } = require("./config.json");
+const { youtubeKey } = require("../config.json");
 
 module.exports = {
     data: new SlashCommandBuilder()
